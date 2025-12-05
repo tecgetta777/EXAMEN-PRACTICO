@@ -14,3 +14,16 @@ El juego permite descubrir casillas, marcar minas y gestiona condiciones de vict
 - Código organizado por paquetes: `model`, `view`, `controller`, `exceptions`.
 
 ---
+## Instalación & Uso
+
+### Requisitos
+- Tener instalado **Java JDK 25** (o versión compatible).  
+- Tener los archivos del proyecto descargados o clonados en tu equipo.
+
+### Pasos para ejecutar
+
+```bash
+git clone https://github.com/tecgetta777/EXAMEN-PRACTICO.git
+cd EXAMEN-PRACTICO/src
+javac model/*.java view/*.java controller/*.java exceptions/*.java Main.java
+java Main
